@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 != PackageManager.PERMISSION_GRANTED){
             requestPermissions(new String[]{Manifest.permission.CALL_PHONE},1000);
         }
+
     }
 
     @Override
